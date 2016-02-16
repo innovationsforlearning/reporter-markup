@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Sprite Animation</title>
+    <style>
+        #spriteContainer {
+            width: 1096px;
+            height: 262px;
+            display: block;
+            background-image: url("images/monty-sprite.png");
+            animation: sprite .7s steps(6) infinite;
+        }
+        @keyframes sprite {
+            100% {
+                background-position: -6576px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+<div id=spriteContainer></div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+// naming convention:
+//   - component classes are capitalized - can be attached to jsx components
+//   - BEM: block__element--modifier
+//   - Namespaces: js- (for javascript), st- (for state)
+
+@import "_settings.grid";
+@import "_settings.variables";
+
+@import "_base.type";
+@import "_base.layout";
+
+@import "_objects.buttons";
+@import "_objects.icons";
+@import "_objects.stimuli";
+
+@import "_objects.footer";
+
+
+// styleguide styles
+@import "_component.color-blocks";
+
