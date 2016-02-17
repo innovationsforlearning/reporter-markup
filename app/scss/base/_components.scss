@@ -1,4 +1,4 @@
-.card-hand {
+.hands {
   background-image: url("../images/hands.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -7,4 +7,23 @@
   margin: 401px 43px;
   position: absolute;
 
+}
+
+.card {
+  height: 277px;
+  width: 169px;
+  background-color: white;
+  border-radius: 24px;
+  float: left;
+  margin:0px 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.red-border {
+  height: 263px;
+  width: 156px;
+  border: 2px dashed #ae1235;
+  border-radius: 19px;
+  margin: 6px 6px;
+  display: inline-flex;
 }
