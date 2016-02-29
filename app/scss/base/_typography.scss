@@ -3,9 +3,16 @@
   src: url('fonts/MuseoSlab-700.otf') format('truetype');
 }
 @font-face {
-  font-family: 'museo-slab';
-  src: url('fonts/MuseoSlab-700.otf') format('truetype');
+  font-family: 'museo-slab-500';
+  src: url('fonts/MuseoSlab-500.otf') format('truetype');
 }
+
+@font-face {
+  font-family: 'dude-hank';
+  src: url('fonts/Dude_Hank.otf') format('truetype');
+}
+
+
 
 body {
   color: $base-font-color;
@@ -103,5 +110,14 @@ picture {
   width: 34%;
   float: left;
   line-height: 85px;
+}
+
+.switch-player {
+  font-family: "dude-hank";
+  font-size: 6em;
+  letter-spacing: .05em;
+  color: white;
+  text-align: center;
+  text-shadow: 0 9px 15px #220000;
 }
 
