@@ -2,6 +2,10 @@
   font-family: 'museo-slab';
   src: url('fonts/MuseoSlab-700.otf') format('truetype');
 }
+@font-face {
+  font-family: 'museo-slab';
+  src: url('fonts/MuseoSlab-700.otf') format('truetype');
+}
 
 body {
   color: $base-font-color;
@@ -22,10 +26,28 @@ h2,{
   text-align: center;
   line-height: 263px;
   margin: auto;
+
+  &.correct {
+    color: $green;
+
+    &.correct:hover {
+      color: $green;
+    }
+  }
+
+  &.incorrect {
+    color: $red;
+
+    &.incorrect:hover {
+      color: $red;
+    }
+  }
 }
 h2:hover {
   color: $medium-gray;
   cursor: pointer;
+
+
 }
 h3,
 h4,
@@ -66,3 +88,20 @@ picture {
   margin: 0;
   max-width: 100%;
 }
+
+.score-tally {
+  font-family: "museo-slab", serif;
+  font-weight: 400;
+  color: white;
+  font-size: 1.5em;
+}
+
+.player-name {
+  font-family: "museo-slab", serif;
+  color: white;
+  font-size: 1em;
+  width: 34%;
+  float: left;
+  line-height: 85px;
+}
+

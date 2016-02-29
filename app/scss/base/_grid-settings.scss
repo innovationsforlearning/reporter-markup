@@ -21,3 +21,18 @@ $large-screen-up: new-breakpoint(min-width $large-screen 8);
   margin-left: 202px;
   margin-top: 54px;
 }
+
+.player-score-bar {
+  width: 32%;
+}
+
+.correct-cards {
+  float: right;
+  width: 35%;
+}
+
+.score-card-spacing {
+  width: 32%;
+  text-align: center;
+  float: left;
+}

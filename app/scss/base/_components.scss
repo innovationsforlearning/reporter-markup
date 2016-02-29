@@ -4,7 +4,7 @@
   background-size: contain;
   width: 926px;
   height: 577px;
-  margin: 401px 43px;
+  margin: 390px 43px;
   position: absolute;
 
 }
@@ -27,3 +27,50 @@
   margin: 6px 6px;
   display: inline-flex;
 }
+
+.footer-scoring {
+  background: #220000;
+  height: 85px;
+  width: calc(2048px/2);
+  align-self: flex-end;
+  position: absolute;
+  margin-top: 683px;
+  display: flex;
+  flex: 1;
+}
+
+.score-tally {
+  background-image: url(../images/score-tally.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 49px;
+  height: 59px;
+  text-align: center;
+  float: left;
+  margin: 12px 20px 0 20px;
+  line-height: 59px;
+}
+
+.score-card {
+  background-image: url(../images/card-down.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 49px;
+  width: 32px;
+  float: right;
+  margin: 18px 3px 0px 3px;
+
+  &:active {
+    background-image: url(../images/card-up.png);
+  }
+
+}
+
+.correct-sparkle {
+  background-image: url(../images/horse-shoe.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 146px;
+  height: 132px;
+}
+
