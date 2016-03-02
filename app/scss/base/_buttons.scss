@@ -1,26 +1,24 @@
 #{$all-buttons} {
-  appearance: none;
-  background-color: $action-color;
+  background-color: $yellow;
   border: 0;
-  border-radius: $base-border-radius;
+  border-radius: 7px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-family: museo-slab;
+  font-size: 2em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
   line-height: 1;
-  padding: $small-spacing $base-spacing;
+  padding: 0.6em 4.33em;
   text-decoration: none;
-  transition: background-color $base-duration $base-timing;
-  user-select: none;
+  transition: background-color 150ms ease;
   vertical-align: middle;
   white-space: nowrap;
 
   &:hover,
   &:focus {
-    background-color: shade($action-color, 20%);
+    background-color: lighten($yellow, 10%);
     color: #fff;
   }
 

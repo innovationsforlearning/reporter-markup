@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/scss/neat/grid/_outer-container.scss" description=".container {&#10;  @include outer-container;&#10;  backgro..." line="39" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="acdd1e2d-77eb-49ed-926a-f01409ff642b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/student-login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/correct-answer.html" afterPath="$PROJECT_DIR$/app/correct-answer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/styles.css" afterPath="$PROJECT_DIR$/app/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/gameboard.html" afterPath="$PROJECT_DIR$/app/gameboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/reward.html" afterPath="$PROJECT_DIR$/app/reward.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/base/_buttons.scss" afterPath="$PROJECT_DIR$/app/scss/base/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/base/_components.scss" afterPath="$PROJECT_DIR$/app/scss/base/_components.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/base/_grid-settings.scss" afterPath="$PROJECT_DIR$/app/scss/base/_grid-settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/base/_typography.scss" afterPath="$PROJECT_DIR$/app/scss/base/_typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/base/_variables.scss" afterPath="$PROJECT_DIR$/app/scss/base/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/neat/grid/_outer-container.scss" afterPath="$PROJECT_DIR$/app/scss/neat/grid/_outer-container.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/switch-player.html" afterPath="$PROJECT_DIR$/app/switch-player.html" />
     </list>
     <ignored path="student-portal-markup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,17 +37,39 @@
       <file leaf-file-name="_components.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/base/_components.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="11.6470585">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.529412">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="student-login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/student-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.291667">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="18" column="27" selection-start-line="17" selection-start-column="26" selection-end-line="18" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/base/_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42986426">
+            <state vertical-scroll-proportion="-11.875">
               <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding />
             </state>
@@ -55,8 +79,18 @@
       <file leaf-file-name="_grid-settings.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/base/_grid-settings.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.875">
-              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            <state vertical-scroll-proportion="-12.041667">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scss/base/_buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8717435">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -65,8 +99,8 @@
       <file leaf-file-name="_outer-container.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/neat/grid/_outer-container.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.041666">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state vertical-scroll-proportion="4.8333335">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -87,6 +121,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.625">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/base/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -167,7 +211,6 @@
         <option value="$PROJECT_DIR$/app/scss/_base.type.scss" />
         <option value="$PROJECT_DIR$/app/scss/_objects.stimuli.scss" />
         <option value="$PROJECT_DIR$/app/scss/_settings.grid.scss" />
-        <option value="$PROJECT_DIR$/app/student-login.html" />
         <option value="$PROJECT_DIR$/app/student-login-blank.html" />
         <option value="$PROJECT_DIR$/app/scss/_objects.footer.scss" />
         <option value="$PROJECT_DIR$/app/scss/_objects.icons.scss" />
@@ -177,16 +220,19 @@
         <option value="$PROJECT_DIR$/app/scss/styles.scss" />
         <option value="$PROJECT_DIR$/app/css/styles.css" />
         <option value="$PROJECT_DIR$/app/scss/base/_base.scss" />
-        <option value="$PROJECT_DIR$/app/scss/base/_variables.scss" />
-        <option value="$PROJECT_DIR$/app/scss/base/_components.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/switch-player.html" />
         <option value="$PROJECT_DIR$/app/reward.html" />
         <option value="$PROJECT_DIR$/app/correct-answer.html" />
-        <option value="$PROJECT_DIR$/app/scss/neat/grid/_outer-container.scss" />
-        <option value="$PROJECT_DIR$/app/scss/base/_grid-settings.scss" />
         <option value="$PROJECT_DIR$/app/gameboard.html" />
         <option value="$PROJECT_DIR$/app/scss/base/_typography.scss" />
+        <option value="$PROJECT_DIR$/app/scss/student-login.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scss/neat/grid/_outer-container.scss" />
+        <option value="$PROJECT_DIR$/app/scss/base/_components.scss" />
+        <option value="$PROJECT_DIR$/app/student-login.html" />
+        <option value="$PROJECT_DIR$/app/scss/base/_grid-settings.scss" />
+        <option value="$PROJECT_DIR$/app/scss/base/_variables.scss" />
+        <option value="$PROJECT_DIR$/app/scss/base/_buttons.scss" />
       </list>
     </option>
   </component>
@@ -358,54 +404,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="neat">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="cowboy-cards-markup">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="scss">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="neat">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="grid">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="cowboy-cards-markup">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="scss">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="base">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -445,6 +443,7 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/scss/base" />
     </key>
   </component>
@@ -518,7 +517,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22097678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22937062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22937062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21030043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -793,22 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/base/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.89378756">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/neat/grid/_fill-parent.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -841,14 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/base/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23246492">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/base/_tables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -857,18 +832,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/neat/grid/_outer-container.scss">
+    <entry file="file://$PROJECT_DIR$/app/scss/base/_components.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.041666">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state vertical-scroll-proportion="-4.529412">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/base/_base.scss">
+    <entry file="file://$PROJECT_DIR$/app/student-login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-13.291667">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="18" column="27" selection-start-line="17" selection-start-column="26" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/base/_grid-settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.041667">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -881,26 +882,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/base/_components.scss">
+    <entry file="file://$PROJECT_DIR$/app/scss/base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.6470585">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/base/_grid-settings.scss">
+    <entry file="file://$PROJECT_DIR$/app/scss/base/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.875">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/base/_typography.scss">
+    <entry file="file://$PROJECT_DIR$/app/scss/neat/grid/_outer-container.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42986426">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        <state vertical-scroll-proportion="4.8333335">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/base/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8717435">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding />
         </state>
       </provider>
