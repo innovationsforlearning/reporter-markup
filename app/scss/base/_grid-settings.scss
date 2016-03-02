@@ -23,7 +23,7 @@ $large-screen-up: new-breakpoint(min-width $large-screen 8);
 }
 
 .player-score-bar {
-  width: 32%;
+  width: 33%;
 }
 
 .correct-cards {
@@ -43,4 +43,8 @@ $large-screen-up: new-breakpoint(min-width $large-screen 8);
   right: 16%;
   top: 138%;
   text-align: center;
+}
+
+.style-nav-bar {
+  margin-left: 88px;
 }

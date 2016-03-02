@@ -24,7 +24,15 @@ body {
 
 $font-primary: 'museo-slab', serif;
 
-h1,
+h1,{
+  font-family: "museo-slab", serif;
+  font-size: 3.2em;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  line-height: 50px;
+  margin: auto;
+}
 h2,{
   font-family: "museo-slab", serif;
   font-size: 3.2em;
@@ -38,7 +46,7 @@ h2,{
     color: $green;
 
     &.correct:hover {
-      color: $green;
+      color: $yellow;
     }
   }
 
@@ -46,7 +54,7 @@ h2,{
     color: $red;
 
     &.incorrect:hover {
-      color: $red;
+      color: $yellow;
     }
   }
 }
@@ -56,7 +64,21 @@ h2:hover {
 
 
 }
-h3,
+h3 {
+  font-family: "museo-slab", serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: $medium-gray;
+  text-align: center;
+  text-align: left;
+  line-height: 1em;
+  float: left;
+  margin: 30px;
+
+  h3:hover {
+    color: $action-color;
+  }
+}
 h4,
 h5,
 h6 {
@@ -121,3 +143,18 @@ picture {
   text-shadow: 0 9px 15px #220000;
 }
 
+.style-nav-pages {
+  font-family: "museo-slab", serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: $medium-gray;
+  text-align: center;
+  text-align: left;
+  line-height: 1em;
+  float: left;
+  margin: 30px;
+
+  &.style-nav-pages:hover {
+    color: $action-color;
+  }
+}
