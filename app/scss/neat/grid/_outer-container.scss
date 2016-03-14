@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/// Makes an element a outer container by centring it in the viewport, clearing its floats, and setting its `max-width`.
+/// Makes an element a outer container by centering it in the viewport, clearing its floats, and setting its `max-width`.
 /// Although optional, using `outer-container` is recommended. The mixin can be called on more than one element per page, as long as they are not nested.
 ///
 /// @param {Number [unit]} $local-max-width [$max-width]
@@ -28,7 +28,6 @@
 ///     clear: both;
 ///   }
 
-
 @mixin outer-container($local-max-width: $max-width) {
   @include clearfix;
   max-width: $local-max-width;
@@ -36,21 +35,4 @@
     left: auto;
     right: auto;
   }
-}
-.container {
-  @include outer-container;
-  background-image: url("../images/bg-game.png");
-  height: calc(1536px/2);
-  background-repeat: no-repeat;
-  background-size: cover;
-  clear: both;
-}
-
-.container-slogin {
-  @include outer-container;
-  background-image: url("../images/bg-slogin.png");
-  height: calc(1536px/2);
-  background-repeat: no-repeat;
-  background-size: cover;
-  clear: both;
 }

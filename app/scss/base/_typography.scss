@@ -1,89 +1,43 @@
 @font-face {
-  font-family: 'museo-slab';
-  src: url('fonts/MuseoSlab-700.otf') format('truetype');
-}
-@font-face {
-  font-family: 'museo-slab-500';
-  src: url('fonts/MuseoSlab-500.otf') format('truetype');
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v12/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
 }
 
-@font-face {
-  font-family: 'dude-hank';
-  src: url('fonts/Dude_Hank.otf') format('truetype');
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
 }
-
-
 
 body {
   color: $base-font-color;
   font-family: $base-font-family;
-  font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
 
-$font-primary: 'museo-slab', serif;
-
-h1,{
-  font-family: "museo-slab", serif;
-  font-size: 3.2em;
-  font-weight: 400;
-  color: #000000;
-  text-align: center;
-  line-height: 50px;
-  margin: auto;
-}
-h2,{
-  font-family: "museo-slab", serif;
-  font-size: 3.2em;
-  font-weight: 400;
-  color: #000000;
-  text-align: center;
-  line-height: 263px;
-  margin: auto;
-
-  &.correct {
-    color: $green;
-
-    &.correct:hover {
-      color: $yellow;
-    }
-  }
-
-  &.incorrect {
-    color: $red;
-
-    &.incorrect:hover {
-      color: $yellow;
-    }
-  }
-}
-h2:hover {
-  color: $medium-gray;
-  cursor: pointer;
 
 
-}
-h3 {
-  font-family: "museo-slab", serif;
-  font-size: 1.5em;
-  font-weight: 400;
-  color: $medium-gray;
-  text-align: center;
-  text-align: left;
-  line-height: 1em;
-  float: left;
-  margin: 30px;
-
-  h3:hover {
-    color: $action-color;
-  }
-}
+h1,
+h2,
+h3,
 h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: $base-font-size;
+  font-size: modular-scale(1);
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
 }
@@ -110,51 +64,4 @@ hr {
   border-right: 0;
   border-top: 0;
   margin: $base-spacing 0;
-}
-
-img,
-picture {
-  margin: 0;
-  max-width: 100%;
-}
-
-.score-tally {
-  font-family: "museo-slab", serif;
-  font-weight: 400;
-  color: white;
-  font-size: 1.5em;
-}
-
-.player-name {
-  font-family: "museo-slab", serif;
-  color: white;
-  font-size: 1em;
-  width: 34%;
-  float: left;
-  line-height: 85px;
-}
-
-.switch-player {
-  font-family: "dude-hank";
-  font-size: 6em;
-  letter-spacing: .05em;
-  color: white;
-  text-align: center;
-  text-shadow: 0 9px 15px #220000;
-}
-
-.style-nav-pages {
-  font-family: "museo-slab", serif;
-  font-size: 1.5em;
-  font-weight: 400;
-  color: $medium-gray;
-  text-align: center;
-  text-align: left;
-  line-height: 1em;
-  float: left;
-  margin: 30px;
-
-  &.style-nav-pages:hover {
-    color: $action-color;
-  }
 }

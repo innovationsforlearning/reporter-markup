@@ -1,5 +1,9 @@
+// Breakpoints
+$medium-screen: 600px;
+$large-screen: 900px;
+
 // Typography
-$base-font-family: $helvetica;
+$base-font-family: $font-stack-system;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -16,22 +20,10 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #477dca;
+$blue: #1565c0;
 $dark-gray: #333;
-$medium-gray: #404041;
+$medium-gray: #999;
 $light-gray: #ddd;
-$black: #0D1624;
-$white: #fff;
-
-$red: #e54c3b;
-$yellow: #faa819;
-$light-yellow: #f6dc78;
-$dark-yellow: #ba9011;
-$green: #4fb96e;
-
-$iron: #D1D3D4;
-$silver: #ccc;
-$gray: #8C8C8C;
 
 // Font Colors
 $base-font-color: $dark-gray;
@@ -52,7 +44,3 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
-
-// Grid
-$max-width: calc(2048px/2);
-$local-max-width: calc(2048px/2);
