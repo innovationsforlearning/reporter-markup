@@ -1,0 +1,22 @@
+.navigation-title {
+  background-color: #00bcd4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px
+}
+
+.navigation-elements {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-size: auto 40px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .5);
+  position: absolute;
+  width: 100%
+}
+
+.navigation-elements-spacing {
+  margin-left: 40px;
+  margin-right: 40px;
+  float: left;
+}
