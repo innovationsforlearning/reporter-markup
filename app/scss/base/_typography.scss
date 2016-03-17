@@ -288,3 +288,36 @@ hr {
 .filter-menu {
   color: white;
 }
+
+.filter-title {
+  font-weight: 300;
+  font-size: 1em;
+  padding-top: 20px;
+  padding-left: 30px;
+  clear: both;
+}
+
+.filter-option {
+  font-size: .85em;
+  font-weight: 300;
+  float: left;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.classroom-name {
+  padding-bottom: 40px;
+}
+
+.card-tab {
+  color: white;
+  &.selected {
+    color: $action-color;
+  }
+}
+
+.card-title {
+  &.selected {
+    color: $action-color;
+  }
+}

@@ -33,3 +33,22 @@
     }
   }
 }
+
+.radio-button {
+  background-image: url("../images/radio-button-off.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  margin-top: 8px;
+  float: left;
+  clear: both;
+  cursor: pointer;
+
+  &:hover {
+     background-image: url('../images/radio-button-on.png');
+   }
+  &:active {
+    background-image: url('../images/radio-button-on.png');
+  }
+}
