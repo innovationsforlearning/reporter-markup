@@ -1,0 +1,54 @@
+#{$all-buttons} {
+  appearance: none;
+  background-color: $action-color;
+  border: 0;
+  border-radius: $base-border-radius;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  padding: $small-spacing $base-spacing;
+  text-decoration: none;
+  transition: background-color $base-duration $base-timing;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background-color: shade($action-color, 20%);
+    color: #fff;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: $action-color;
+    }
+  }
+}
+
+.radio-button {
+  background-image: url("../images/radio-button-off.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  margin-top: 8px;
+  float: left;
+  clear: both;
+  cursor: pointer;
+
+  &:hover {
+     background-image: url('../images/radio-button-on.png');
+   }
+  &:active {
+    background-image: url('../images/radio-button-on.png');
+  }
+}
